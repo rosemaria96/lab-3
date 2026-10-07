@@ -14,3 +14,8 @@ void loop() {
 
   delay(500);
 }
+
+
+3v3 yellow third
+gnd blue first
+d4 green second

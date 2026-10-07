@@ -15,3 +15,6 @@ void loop() {
   delay(1000);
 }
 
+3v3 yellow vco
+gnd blue gnd
+do green do

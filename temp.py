@@ -38,3 +38,12 @@ void loop()
 
   delay(2000);
 }
+
+
+Connections :
+DHT22
+ESP32
+VCC 3.3V
+DATA GPIO 18
+GND GND
+
