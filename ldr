@@ -1,0 +1,17 @@
+#define LDR_PIN 34
+ 
+void setup() {
+  Serial.begin(115200);
+  pinMode(LDR_PIN, INPUT);
+}
+ 
+void loop() {
+ 
+  int lightStatus = digitalRead(LDR_PIN);
+ 
+  Serial.print("LDR Status: ");
+  Serial.println(lightStatus);
+ 
+  delay(1000);
+}
+
